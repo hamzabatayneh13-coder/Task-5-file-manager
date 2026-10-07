@@ -1,0 +1,146 @@
+* {
+    font-family: Arial;
+    box-sizing: border-box;   
+}
+
+.container-2 {
+    display: flex;    
+    width: 1000px;    
+    height: 700px;          
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15); 
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container-2 h1 {
+    margin-left: 15px;
+}
+
+.sidebar {
+    width: 31%;
+    background-color: #01A9FF;
+    height: 100vh;
+    color: white;
+    padding: 25px 5px 50px 55px;
+    
+}
+
+.sign-up {
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.sign-up-p {
+    margin-bottom: 20vh;
+    padding-right: 50px;
+    opacity: 0.8;
+}
+
+.sign-in {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+
+.sign-in-p {
+    padding-right: 60px;
+    opacity: 0.8;
+}
+
+.sign-up-div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 3%;
+
+}
+
+
+.sign-up-field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sign-up-field label {
+    width: 80px;
+    text-align: right;
+    flex-shrink: 0;
+}
+
+.sign-up-field input,
+.sign-up-field select {
+    width: 180px;
+    
+}
+
+.radio-sex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.radio-sex-label {
+    width: 70px;
+    text-align: right;
+}
+
+.rule {
+    color: red;
+}
+
+.rule-1 {
+    color: red;
+    margin-left: 30px;
+}
+
+.list_country {
+    width: 130px;
+    height: 25px;
+    border: 1px solid;
+    background-color: white;
+}
+
+.cb-language {
+    accent-color: green;
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+textarea::placeholder {
+    color: red;
+    
+}
+
+.about {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.submit {
+    margin-left: 220px;
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.about label {
+    width: 70px;
+    text-align: right;
+}

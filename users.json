@@ -1,0 +1,23 @@
+[
+    {
+        "userId": "da05f197b1ed",
+        "firstname": "Hamza",
+        "lastname": "Al-Batayneh",
+        "email": "hamzabtnh@gmail.com",
+        "password": "$2y$12$XENXHBrAezRVWTKKb3tl4eJFALvvOW2e5eFTUlr4fI85oK7M.sHAW"
+    },
+    {
+        "userId": "a8074e2136e4",
+        "firstname": "Fadi",
+        "lastname": "Batayneh",
+        "email": "fadi@gmail.com",
+        "password": "$2y$12$568f0le9P05IBwwS7LxMpOWMa4Cc74vik13pCeHgX7YdzeYxPbHgS"
+    },
+    {
+        "userId": "461e8a28b226",
+        "firstname": "samia",
+        "lastname": "amer",
+        "email": "samia@test.test",
+        "password": "$2y$12$VTFAkVjAFohmun2TAVQcyu9daQKc9O9iSnNmSplAPZebfd72zOmie"
+    }
+]

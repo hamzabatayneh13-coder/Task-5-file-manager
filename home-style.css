@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #716e6e;
+    padding: 15px 200px;
+    color: white;
+}
+
+.header h1,
+.create-upload span,
+.footer h2 {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.header-logout {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 20px;
+}
+
+.header-logout button {
+    display: flex;
+    align-items: end;
+    gap: 5px;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+/* .header-logout button, */
+.header-logout p {
+    display: flex;
+    align-items: end;
+    gap: 5px;
+    margin: 0;
+}
+
+.header img {
+    width: 23px;
+}
+
+.create-upload {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 200px;
+}
+
+.create-upload h1 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.create-upload img {
+    width: 30px;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.buttons button {
+    padding: 8px 15px;
+    font-size: 19px;
+    width: 160px;
+    background-color: #1BA1E2;
+    border: none;
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.buttons button:hover {
+    transform: scale(0.97);
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #716e6e;
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.my-folders-files {
+    background-color: rgb(225 222 222);
+}
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-overlay:target {
+    display: flex;
+}
+
+.modal-box {
+    background: white;
+    border-radius: 8px;
+    padding: 30px;
+    width: 380px;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.modal-box h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 22px;
+    color: #999;
+    text-decoration: none;
+}
+
+.modal-box input[type="text"],
+.modal-box input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #29ABE2;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+}
+
+.cancel-link {
+    color: #555;
+    text-decoration: none;
+}
+
+.modal-actions button {
+    background: #29ABE2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.my-folders-files {
+    padding: 0 200px;
+}
+
+.file-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.file-table th {
+    text-align: left;
+    padding: 15px 20px;
+    background: #f0f0f0;
+    font-weight: 600;
+    color: #333;
+}
+
+.file-table td {
+    padding: 15px 20px;
+    border-top: 1px solid #eee;
+    vertical-align: middle;
+}
+
+.file-table a {
+    color: #1BA1E2;
+    text-decoration: none;
+}
+
+.sub-name {
+    color: #999;
+    font-size: 13px;
+    font-style: italic;
+    display: block;
+}
+
+.manage-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon-view, .icon-delete {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    border: 1px solid;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.icon-view {
+    border-color: #28a745;
+    color: #28a745;
+}
+
+.icon-delete {
+    border-color: #dc3545;
+    color: #dc3545;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+.breadcrumbs {
+    padding: 0 200px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.breadcrumbs a {
+    color: #1BA1E2;
+    text-decoration: none;
+}
